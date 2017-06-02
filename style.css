@@ -1,0 +1,103 @@
+body {
+    background-image: url('https://www.matchpint.co.uk/imagenes/competitions/2014-09/PremierLeagueBackground.png');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    height: 100%
+}
+
+h1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 60px;
+    color: red;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 15px 15px;
+}
+
+.head {
+    color: red;
+    margin-bottom: 100px;
+}
+
+table {
+    color: white
+}
+
+#position {
+    height: 100%;
+    background-image: url('https://dx0bow4ahkvth.cloudfront.net/web/img/layout-background.jpg?4ed3b5');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rony {
+    height: 900px;
+    width: 700px;
+}
+
+.league {
+    color: darkblue;
+}
+
+.tr-teams :hover {
+    background-color: mediumblue !important;
+}
+
+.away {
+    text-align: right;
+}
+
+#match {
+    color: black;
+    font-size: 25px;
+    background-color: darkblue;
+}
+
+footer {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+a {
+    color: red;
+}
+
+.nextMatch {
+    font-size: 15px;
+    color: white;
+}
+
+#news {
+    color: white;
+    background-color: darkblue;
+}
+
+#info {
+    margin-left: 620px;
+}
+
+.new-row {
+    margin-top: 150px
+}
+
+.bbc {
+    color: red;
+    font-size: 30px;
+}
+
+#title {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#next-match {
+    background-color: black;
+}

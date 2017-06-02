@@ -1,0 +1,39 @@
+<div class="controller" id="position">
+    <div class="row">
+        <div class="col-sm-6">
+            <table class="table-hover table">
+                <thead>
+                    <th>Team</th>
+                    <th>Position</th>
+                    <th>Played</th>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>L</th>
+                    <th>GF</th>
+                    <th>GA</th>
+                    <th>PTS</th>
+                </thead>
+                <tbody class="tr-teams" ng-repeat="x in teams">
+
+
+
+                    <tr>
+                        <td>{{x.team_name}}</td>
+                        <td>{{x.overall_league_position}}</td>
+                        <td>{{x.overall_league_payed}}</td>
+                        <td>{{x.overall_league_W}}</td>
+                        <td>{{x.overall_league_D}}</td>
+                        <td>{{x.overall_league_L}}</td>
+                        <td>{{x.overall_league_GF}}</td>
+                        <td>{{x.overall_league_GA}}</td>
+                        <td>{{x.overall_league_PTS}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class='col-sm-6'>
+            <img id="rony" src="http://freepngimages.com/wp-content/uploads/2015/10/wayne-rooney-manchester-united-footballer.png">
+        </div>
+    </div>
+    <directive></directive>
+</div>

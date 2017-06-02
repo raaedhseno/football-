@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-controller="Ctrl">
+    <audio controls autoplay loop hidden>
+       <source src="queen-we-are-the-champions.mp3" type="audio/ogg">
+       <source src="queen-we-are-the-champions.mp3" type="audio/mpeg">
+   </audio>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav pull-right">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#/position">position</a></li>
+                <li><a href="#/news">News</a></li>
+                <li><a href="#/match">Match</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <h1 class="league">Premier League</h1>
+
+    <ng-view></ng-view>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js'></script>
+    <script src='https://code.angularjs.org/1.6.4/angular-route.js'></script>
+    <script src='script.js'></script>
+    <script src='js/position.js'></script>
+    <script src='js/news.js'></script>
+    <script src='js/match.js'></script>
+    <script src="js/service.js"></script>
+    <script src="js/directive.js"></script>
+
+</body>
+
+</html>

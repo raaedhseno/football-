@@ -1,0 +1,41 @@
+<div id="news" class="container" ng-repeat="x in news">
+    <div class="row">
+        <div class="col-sm-12">
+            <div>
+                <div class="bbc">{{x.author}}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="title" class="col-sm-12">
+                <div>
+                    {{x.title}}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div>
+                    {{x.description}}
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div>
+                    <img ng-src={{x.urlToImage}}>
+                </div>
+            </div>
+        </div>
+        <div class="rwo text-center">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div>
+                    {{x.publishedAt}}
+                </div>
+
+            </div>
+        </div>
+        <center><a id="info" href={{x.url}}>more info</a></center>
+    </div>
+
+</div>
+<directive></directive>

@@ -1,0 +1,24 @@
+<marquee id="next-match" class="nextMatch">
+    Next Match : Man United X Liverpool __ Man City X Westham __ Arsinal X Chelsea __ Everton X Southampton __ Leicester City X AFC Bournemouth __ Stoke City X Hull City __ Burnley X Middlesbrough __ Sunderland X Crystal Palace __ Burnley X West Bromwich Albion</marquee>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <table id="match" class="table table-hover">
+                <thead>
+
+                </thead>
+                <tbody ng-repeat="x in teams">
+                    <tr>
+                        <td>{{x.match_hometeam_name}}</td>
+                        <td>{{x.match_hometeam_score}}</td>
+                        <td>{{x.match_awayteam_score}}</td>
+                        <td class="away">{{x.match_awayteam_name}}</td>
+
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <directive></directive>
+</div>
